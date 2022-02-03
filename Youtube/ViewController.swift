@@ -23,8 +23,8 @@ var ids: [String] = []
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "youtubeCell", for: indexPath)
-
+    let cell = tableView.dequeueReusableCell(withIdentifier: "youtubeCell", for: indexPath) as! YoutubeCell
+    cell.update(videoId: ids[indexPath.row])
     return cell
   }
 
