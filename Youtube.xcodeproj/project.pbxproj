@@ -13,6 +13,7 @@
 		8B0431FB27ABC4C4003BBD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0431F927ABC4C4003BBD0C /* Main.storyboard */; };
 		8B0431FD27ABC4C9003BBD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0431FC27ABC4C9003BBD0C /* Assets.xcassets */; };
 		8B04320027ABC4C9003BBD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0431FE27ABC4C9003BBD0C /* LaunchScreen.storyboard */; };
+		8B04320C27ABCDF0003BBD0C /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B04320B27ABCDF0003BBD0C /* String+Substring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B0431FC27ABC4C9003BBD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0431FF27ABC4C9003BBD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B04320127ABC4C9003BBD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B04320B27ABCDF0003BBD0C /* String+Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Substring.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8B0431F327ABC4C4003BBD0C /* AppDelegate.swift */,
 				8B0431F527ABC4C4003BBD0C /* SceneDelegate.swift */,
 				8B0431F727ABC4C4003BBD0C /* ViewController.swift */,
+				8B04320B27ABCDF0003BBD0C /* String+Substring.swift */,
 				8B0431F927ABC4C4003BBD0C /* Main.storyboard */,
 				8B0431FC27ABC4C9003BBD0C /* Assets.xcassets */,
 				8B0431FE27ABC4C9003BBD0C /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B04320C27ABCDF0003BBD0C /* String+Substring.swift in Sources */,
 				8B0431F827ABC4C4003BBD0C /* ViewController.swift in Sources */,
 				8B0431F427ABC4C4003BBD0C /* AppDelegate.swift in Sources */,
 				8B0431F627ABC4C4003BBD0C /* SceneDelegate.swift in Sources */,
